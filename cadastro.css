@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; 
+    color: #fff; 
+}
+
+.cadastro {
+    background-color: #444; 
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cadastro h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+fieldset {
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    color: #ddd; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #555; 
+    color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #888; 
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.thank-you-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: green;
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+

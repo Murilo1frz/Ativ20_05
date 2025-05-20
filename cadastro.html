@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - DriftSneaker</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Design_sem_nome-removebg-preview (1).png" alt="Logo Shoeffeur">
+            </div>
+        </nav>
+    </header>
+
+    <section class="cadastro">
+        <h2>Cadastro para Compra</h2>
+        <form action="#" method="POST" id="cadastroForm">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="dob">Data de Nascimento:</label>
+                <input type="date" id="dob" name="dob" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço de Entrega</legend>
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">Cidade:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="zip">CEP:</label>
+                <input type="text" id="zip" name="zip" required>
+
+                <label for="neighborhood">Bairro:</label>
+                <input type="text" id="neighborhood" name="neighborhood" required>
+            </fieldset>
+
+
+            <button type="submit" id="submitButton">Finalizar Cadastro</button>
+        </form>
+
+        <div id="thankYouMessage" class="thank-you-message" style="display: none;">
+            <p>Obrigado por comprar na DriftSneaker! Seu pedido foi registrado com sucesso.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 DriftSneaker. Todos os Direitos Reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
